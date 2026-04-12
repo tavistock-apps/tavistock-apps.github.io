@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Pratica – Support</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #6c63ff 0%, #e96bab 100%);
+      color: white;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    header .icon { font-size: 56px; margin-bottom: 12px; }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p { font-size: 1.1rem; opacity: 0.9; margin-top: 8px; }
+    main {
+      max-width: 680px;
+      margin: 48px auto;
+      padding: 0 24px 64px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #6c63ff;
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 16px 0 6px;
+      color: #1d1d1f;
+    }
+    p { color: #3d3d3f; margin-bottom: 10px; }
+    ul { padding-left: 20px; color: #3d3d3f; }
+    li { margin-bottom: 6px; }
+    a { color: #6c63ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-btn {
+      display: inline-block;
+      background: #6c63ff;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 50px;
+      font-weight: 600;
+      margin-top: 8px;
+      text-decoration: none;
+    }
+    .contact-btn:hover { background: #5a52e0; text-decoration: none; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #86868b;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="icon">🎵</div>
+  <h1>La Pratica Support</h1>
+  <p>Music Practice Made Fun</p>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>How does the AI instrument detection work?</h3>
+    <p>La Pratica uses Apple’s on-device AI to listen through your microphone and identify when you’re actively playing your chosen instrument. It counts only real playing time — pauses and silence are automatically excluded.</p>
+
+    <h3>Which instruments are supported?</h3>
+    <p>Piano, guitar, violin, cello, trumpet, flute, and more. Select your instrument in Settings before starting a session for the best accuracy.</p>
+
+    <h3>Why isn’t my instrument being detected?</h3>
+    <ul>
+      <li>Make sure you’ve granted microphone permission to La Pratica in iOS Settings → Privacy → Microphone.</li>
+      <li>Select the correct instrument in the app’s Settings tab.</li>
+      <li>Play close to the device and in a reasonably quiet environment.</li>
+      <li>Sessions shorter than 1 minute are not saved to history.</li>
+    </ul>
+
+    <h3>What is the quality score?</h3>
+    <p>The quality score is an AI confidence measure of how clearly your instrument is detected. It’s designed to be encouraging — a score of 80+ means the AI clearly hears you playing.</p>
+
+    <h3>What is the Family Pack?</h3>
+    <p>The Family Pack is a one-time in-app purchase ($4.99) that unlocks unlimited practice sessions, full history, all trophies, and all premium features. There are no subscriptions — you pay once and own it forever.</p>
+
+    <h3>How do I restore my purchase on a new device?</h3>
+    <p>Go to Settings → Restore Purchase inside the app, or tap “Restore” on the paywall screen. Your purchase is tied to your Apple ID and restores automatically.</p>
+
+    <h3>How do I clear my practice history?</h3>
+    <p>Go to Settings → Clear All History. You’ll be asked to confirm before anything is deleted.</p>
+
+    <h3>Can multiple family members use the app?</h3>
+    <p>Yes! The Family Pack covers the whole family on shared devices. Each family member can set their own instrument and practice goal.</p>
+  </div>
+
+  <div class="card">
+    <h2>Contact Support</h2>
+    <p>Can’t find an answer above? We’d love to help. Send us an email and we’ll get back to you within 1–2 business days.</p>
+    <a class="contact-btn" href="mailto:shing.zhao@gmail.com">Email Support</a>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>La Pratica processes all audio on-device using Apple’s SoundAnalysis framework. <strong>No audio is ever recorded or sent to any server.</strong> We take your family’s privacy seriously.</p>
+    <p><a href="../privacy/">View our full Privacy Policy →</a></p>
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2026 Tavistock LLC &nbsp;·&nbsp; <a href="../privacy/">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
